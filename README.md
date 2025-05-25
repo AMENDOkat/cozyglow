@@ -1,1 +1,1 @@
-## Rpository for Neocities website
+## Repository for Neocities website
