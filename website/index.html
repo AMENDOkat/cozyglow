@@ -6,7 +6,8 @@
     <title>Cozy Glow</title>
 </head>
 <style>
-    body{text-align: center;}
+    body{ text-align: center; }
+
     img{
         display: block;
         width: 10rem;
@@ -17,6 +18,14 @@
     <h1>Hello, World!</h1>
     <p>This is a test to see if I can get Github and Neocities to work. Don't worry about it.</p>
     <img src="assets/img/cozyglow.png" alt="">
-    <p>25/05/2025</p>
+    <p>Cozy Glow</p>
+    <img onclick="playAudio()" src="/assets/img/qc.jpg" alt="">
+    <p>Click on Chrysalis for a surprise!</p>
 </body>
+<script>
+    function playAudio(){
+        var audio = new Audio('/assets/audio/bark.mp3');
+        audio.play();
+    }
+</script>
 </html>
